@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.failure-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  height: 30vh;
+  width: 40vw;
+}
+.success-container {
+  background-color: #000000;
+  background-size: cover;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.logo-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  height: 25px;
+  width: 30px;
+}
+.logo-content {
+  color: green;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
